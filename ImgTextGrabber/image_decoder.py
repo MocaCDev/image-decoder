@@ -3,9 +3,14 @@ from BillOfSales import BOSID, BOS
 
 class ImageDecoder:
 
+    #
+    #   IW - ImageWorker
+    #
     def __init__(self, IW = None):
         
         self.IW = IW
+
+        # BOSID - Found in `BillOfSales/__init__.py`
         self.BOS = BOSID
 
         if self.IW == None:

@@ -5,6 +5,9 @@ import sys
 
 class BOS_decoder:
 
+    #
+    #   IW - ImageWorker, BOSID - Found in `__init__.py`
+    #
     def __init__(self, IW = None, BOSID = None) -> None:
         
         self.IW = IW
